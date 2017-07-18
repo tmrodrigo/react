@@ -1,0 +1,19 @@
+.nav {
+  background-color: $darkGrey;
+  color: white;
+  padding: 15px;
+  ul {
+    display: flex;
+    a {
+      margin-right: 15px;
+      color: white;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .active {
+      text-decoration: underline;
+    }
+
+  }
+}
